@@ -25,8 +25,6 @@ cd payload/
 ```
 root@HTB:~# git clone https://github.com/choupit0/HTB-Dyplesher.git
 Cloning into 'HTB-Dyplesher'...
-Username for 'https://github.com': choupit0
-Password for 'https://choupit0@github.com':
 remote: Enumerating objects: 6, done.
 remote: Counting objects: 100% (6/6), done.
 remote: Compressing objects: 100% (5/5), done.
