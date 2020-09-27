@@ -86,7 +86,7 @@ adding: htb/dyplesher/plugin/CreateFile.class(in = 1410) (out= 847)(deflated 39%
 adding: plugin.yml(in = 187) (out= 146)(deflated 21%)
 ```
 
-Our JAR file named "createfile.jar" has been created:
+Our JAR file named "**createfile.jar**" has been created:
 ```
 root@HTB:~/HTB-Dyplesher/payload# tree
 .
