@@ -1,6 +1,6 @@
 # HTB-Dyplesher :alien:
 # Warning message
-**This is _not_ a complete write-up for the Dyplesher (10.10.10.1901), just a small nudge for the foothold part.**
+**This is _not_ a complete write-up for the Dyplesher (10.10.10.190), box always active (27-09-2020), just a small nudge for the foothold part.**
 
 **I developed this Bash script and use these files because I didn't want to depend/use on a heavy Integrated Development Environment (IDE).**
 # Description
