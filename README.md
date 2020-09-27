@@ -8,7 +8,7 @@ Ceate a Bukkit plugin without using an IDE. This is a simple build script writte
 
 The JAR file will create a PHP web shell.
 
-I used it on the box Dyplesher from HackTheBox platform to obtain the first "pseudo" shell on the box.
+I used it on the box Dyplesher from HackTheBox platform to obtain the first "pseudo" terminal on the box.
 
 (source: https://bukkit.org/threads/creating-plugin-without-an-ide.136603/page-2)
 # Usage/Installation
