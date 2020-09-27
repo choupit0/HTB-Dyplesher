@@ -130,7 +130,7 @@ https://github.com/mxrch/webwrap
 With your web shell you will be able to simulate a terminal:
 
 ```
-root@HTB:~/HTB/Dyplesher/webwrap# ./webwrap http://[subdomain].dyplesher.htb/batman.php?cmd=WRAP
+root@HTB:~/HTB/Dyplesher/webwrap# ./webwrap http://subdomain.dyplesher.htb/batman.php?cmd=WRAP
 
 [user]@dyplesher:/var/www/[subdomain]$ ls
 README.md
