@@ -138,4 +138,4 @@ batman.php
 index.php
 ```
 
-I let you imagine the rest, no spoilers here ;)
+I let you imagine the rest, no too many spoilers here ;)
