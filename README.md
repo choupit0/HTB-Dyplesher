@@ -127,7 +127,7 @@ Finally, install this great tool:
 
 https://github.com/mxrch/webwrap
 
-With your web shell you will be able to simulate a terminal:
+With your Web shell you will be able to simulate a terminal:
 
 ```
 root@HTB:~/HTB/Dyplesher/webwrap# ./webwrap http://subdomain.dyplesher.htb/batman.php?cmd=WRAP
