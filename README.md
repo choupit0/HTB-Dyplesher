@@ -106,7 +106,7 @@ root@HTB:~/HTB-Dyplesher/payload# tree
 9 directories, 7 files
 ```
 # Obtaining a "pseudo" shell
-(in the hosts file: dyplesher.htb + test.dyplesher.htb = 10.10.10.190)
+Put in your hosts file: dyplesher.htb + test.dyplesher.htb = 10.10.10.190
 
 Once you have you JAR file, add the plugin and reload it on the web interface:
 
@@ -133,3 +133,5 @@ README.md
 batman.php
 index.php
 ```
+
+I let you imagine the rest, no spoilers here ;)
