@@ -117,7 +117,7 @@ Once you have you JAR file, add the plugin and reload it on the web interface:
 http://dyplesher.htb/home/add
 http://dyplesher.htb/home/reload
 
-Then, check you can launch a PHP command:
+Then, check if you can launch a PHP command:
 
 http://subdomain.dyplesher.htb/batman.php?cmd=id
 
