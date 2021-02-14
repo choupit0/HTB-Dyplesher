@@ -4,7 +4,7 @@
 
 **I developed this Bash script and use these files because I didn't want to depend/use on a heavy Integrated Development Environment (IDE).**
 # Description
-Ceate a Bukkit plugin without using an IDE. This is a simple build script written in Bash to create your Java archive data (JAR) from a Linux platform.
+Create a Bukkit plugin without using an IDE. This is a simple build script written in Bash to create your Java archive data (JAR) from a Linux platform.
 
 The JAR file will create a PHP web shell.
 
